@@ -1,4 +1,3 @@
-  GNU nano 5.4                                           test.rb                                                    
 #!/usr/bin/ruby -w
 require 'net/http'
 require 'json'
