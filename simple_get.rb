@@ -4,6 +4,8 @@ require 'json'
 
 
 #* means take the rest of the args
+# arg1, arg2, *restArgs
+
 if ARGV.length < 2
     puts "Too few arguments"
     exit
