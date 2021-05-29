@@ -1,7 +1,5 @@
 #!/usr/bin/ruby -w
 require 'net/http'
-require 'json'
-
 
 #* means take the rest of the args
 # arg1, arg2, *restArgs
@@ -23,7 +21,7 @@ def getPage
     if (res.code == '200')
         puts "Request completed: 200"
     end
-    return JSON.parse(res.body)
+    return res.body
 end
 
 flag=ARGV[0]
